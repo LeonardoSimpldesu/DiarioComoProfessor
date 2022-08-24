@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>23/08/2022</title>
+</head>
+<body>
+    <div id="cabecario">
+        <a href="/dicionario/">Voltar</a>
+    </div>
+    <div id="conteudo">
+        <div id="tag_texto">
+            <h1>Tags de texto</h1>
+            <p>Essas tags são usadas como títulos ou destaques. As tags "H" vão de 1 a 6 antes de perderem a 
+                formatação padrão do html.</p>
+            <h1>Tag tipo H1</h1>
+            <h2>Tag tipo H2</h2>
+            <h3>Tag tipo H3</h3>
+            <h4>Tag tipo H4</h4>
+            <h5>Tag tipo H5</h5>
+            <h6>Tag tipo H6</h6>
+            <h2>Outras tags de texto</h2>
+            <p>Outra tag comun comum é a tag "p".</p>
+        </div>
+        <div id="outras_tags">
+            <h3>Link</h3>
+            <p>Tags de link são ultilizadas para serem clicaveis e redirecionar o usuario para outra página, 
+                usando a tag "a" acompanhada do atributo href="link". Segue o exeplo</p>
+            <a href="">Link</a>
+            <h3>Imagens</h3>
+            <p>Tags de imagem imprimem uma imagem na tela, usando a tag "img" com o atributo src="link ou rota da img".
+                Usamos o atributo de witdh="tamanho em px" para arrumar o tamanho da imagem.
+            </p>
+            <p>Foto usando Link</p>
+            <img src="https://media.discordapp.net/attachments/659076608627310623/908795224652906536/image_1.jpeg?width=566&height=701" width="128px">
+            <p>Foto usando Rota</p>
+            <img src="imgdias/perso.png" width="128px">
+        </div>
+        <div id="formulario">
+            <h3>Formulario</h3>
+            <p>A tag form é literalmente para enviar informações de um formulário para outra página, essa página vai
+                receber as informações baseadas nos atribustos "name" e "for". Existem vários tipos de "input", que é
+                o tipo de informação, seja ela uma caixa de opções ou um espaço para texto. 
+            </p>
+            <form>
+                <label for="input_texto" id="input_texto">Input Texto</label>
+                <input type="text" id="input_texto" name="input_texto">
+                <br>
+                <br>
+
+                <label for="input_radio">Input Radio</label><br>
+
+                <input type="radio" name="Opção1">
+                <label for="Opção1">Opção1</label>
+
+                <input type="radio" name="Opção2">
+                <label for="Opção2">Opção2</label>
+
+                <input type="radio" name="Opção3">
+                <label for="Opção3">Opção3</label>
+                <br>
+                <br>
+                <label for="input_checkbox">Input Checkbox</label><br>
+
+                <input type="checkbox" name="OpçãoA">
+                <label for="OpçãoA">OpçãoA</label>
+
+                <input type="checkbox" name="OpçãoB">
+                <label for="OpçãoB">OpçãoB</label>
+
+                <input type="checkbox" name="OpçãoC">
+                <label for="OpçãoC">OpçãoC</label>
+                <br>
+                <br>
+                <label for="input_submit">Input Submit</label>
+                <input type="submit" name="input_submit">
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
